@@ -16,7 +16,7 @@ file.close()
 # file modes
 with open(path_to_input_file) as file: # N.B. opens file to position `0` by default
   contents_lines = file.readlines()
-# <-- `file` closes automatically here upon executing `with...` execution context
+# <-- `file` closes automatically here upon executing `with...` context manager
 
 with open(path_to_output_file, mode='w') as file: # mode `'w'` overwrites an existing file, or creates a new file if non-existing
   written_chars_count = file.write('hello world\nprogramming is fun\n')
