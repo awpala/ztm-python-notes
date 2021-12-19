@@ -6,6 +6,7 @@ list_one = [1, 2, 3]
 list_two = [10, 20, 30]
 a_tuple = ('a', 'b', 'c')
 
+
 # pure functions
 new_list = multiply_by_two_raw(old_list)
 
